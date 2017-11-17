@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:100%;
+	margin:auto;
+	background-image:url(../../images/lagosMainbg.jpg);
+	}
+.logged{
+	font-size:9px;
+	position:fixed;
+	z-index:10;
+	background-color:#FFF;
+	box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
+	padding:2px;
+	}
+.logged a{
+	text-decoration:none;
+	}
+.logged #linkd{
+	color:#F00;
+	}
+a{
+	text-decoration:none;
+	}
+#footer{
+	margin-left:10px;
+	margin-right:10px;
+	font-size:10px;
+	}
+#footer span{
+	float:right;
+	}
+#main{
+	border-left: 1px solid #665544;
+	border-bottom: 1px solid #665544;
+	width:930px;
+	margin:auto;
+	padding:1px;
+	box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
+	background:#FFF;
+	}
+#subtitle{
+	color:#FFF;
+	background:#06F;
+	padding-left:5px;
+	margin-right:5px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.8);
+	width:90%;
+	}
+#success{
+	margin-top:50px;
+	margin-left:50px;
+	}
+#headBanner{
+	width:100%;
+	}
+#headBanner img{
+	position:relative;
+	width:100%;
+	}
+#content{
+	width: 100%;
+	height: 520px;
+	overflow: scroll;
+	}
+#menu{
+	width:12%;
+	height:300px;
+	float:left;
+	position:absolute;
+	display:inline;
+	padding-top:40px;
+	}
+#menu span{
+	cursor: pointer;
+	}
+#menu li{
+	list-style: none;
+	padding-bottom:10px;
+	padding-left: 0px;
+	}
+#menu li ul{
+	padding-left: 0px;
+	}
+#details{
+	width:80%;
+	float:left;
+	padding-left:10px;
+	margin-left:20%;
+	margin-bottom:20px;
+	}
+form{
+	padding:15px;
+	}
+form p, form span, input, label, select {
+	font-size:1em;
+	}
+form .field{
+	padding:5px;
+	}
+form .textfield{
+	display:block;
+	height:25px;
+	line-height:25px; 
+	border:solid 1px #ccc; 
+	padding:3px; 
+	width:70%;
+	}
+.textfield:focus{
+	border:solid 1px #0066CC;
+	}
+
+form select{
+	display:block;
+	height:35px;
+	line-height:25px;
+	border:solid 1px #ccc;
+	padding:3px;
+	width:71%;
+	}
+input.btn{
+	display: block;
+	height: 30px;
+	margin-top: 15px;
+	margin-left: 5px;
+	padding: 0 15px 0 15px;
+	float: left;
+	border: solid 1px;
+	border-color: #bbb #999 #999 #bbb;
+	font: 1em 'TeXGyreAdventor', Arial, sans-serif;
+	background: #efefef;
+	cursor: pointer;
+			}
